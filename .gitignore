@@ -9,8 +9,9 @@
 # appsettings files
 **/appsettings.*
 
-# vscode files
+# vscode and DS_Store files
 .vscode
+.DS_Store
 
 # User-specific files
 *.rsuser
