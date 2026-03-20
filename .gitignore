@@ -9,6 +9,9 @@
 # appsettings files
 **/appsettings.*
 
+# vscode files
+.vscode
+
 # User-specific files
 *.rsuser
 *.suo
