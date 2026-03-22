@@ -6,6 +6,9 @@
 # dotenv files
 .env
 
+# database files
+*.db
+
 # appsettings files
 **/appsettings.*
 
