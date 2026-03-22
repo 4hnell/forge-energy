@@ -32,6 +32,10 @@ cat > appsettings.json << EOF
 EOF
 ```
 
+```
 dotnet build
+```
 
+```
 dotnet ef database update
+```
