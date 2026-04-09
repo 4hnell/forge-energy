@@ -7,6 +7,7 @@ namespace forge_energy.Data;
 public class ForgeEnergyContext(DbContextOptions<ForgeEnergyContext> options) : IdentityDbContext<Employee>(options)
 {
     public DbSet<FieldOperator> FieldOperators { get; set; }
+    public DbSet<Employee> Employees { get; set; }
     public DbSet<Thing> Things { get; set; }
 
     // protected override void OnModelCreating(ModelBuilder modelBuilder)
