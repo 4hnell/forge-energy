@@ -10,7 +10,7 @@
 *.db
 
 # migrations
-
+**/Migrations/
 
 # appsettings files
 **/appsettings.*
