@@ -6,6 +6,7 @@ namespace forge_energy.Data;
 public class ForgeEnergyContext(DbContextOptions options) : DbContext(options)
 {
     public DbSet<Thing> Things { get; set; }
+    public DbSet<DistributionSite> DistributionSites { get; set; }
 
     // protected override void OnModelCreating(ModelBuilder modelBuilder)
     // {
