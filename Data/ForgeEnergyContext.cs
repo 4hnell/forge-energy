@@ -10,6 +10,8 @@ public class ForgeEnergyContext(DbContextOptions<ForgeEnergyContext> options) : 
 {
     public DbSet<FieldOperator> FieldOperators { get; set; }
     public DbSet<Thing> Things { get; set; }
+    public DbSet<IssueReport> IssueReports { get; set; }
+    public DbSet<Substation> Substations { get; set; }
     public DbSet<DistributionSite> DistributionSites { get; set; }
 
     // protected override void OnModelCreating(ModelBuilder modelBuilder)
