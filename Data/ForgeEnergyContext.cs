@@ -1,8 +1,10 @@
 using forge_energy.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace forge_energy.Data;
 
+public class ForgeEnergyContext(DbContextOptions options) : IdentityDbContext<User>(options)
 
 public class ForgeEnergyContext(DbContextOptions<ForgeEnergyContext> options) : IdentityDbContext<Employee>(options)
 {
