@@ -37,5 +37,9 @@ dotnet build
 ```
 
 ```
+dotnet ef migrations add SqliteCreate -o Data/Migrations
+```
+
+```
 dotnet ef database update
 ```
